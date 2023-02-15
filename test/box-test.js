@@ -8,7 +8,7 @@ describe("Box Proxy", async () => {
     });
 
     //Test Case
-    it("Retrieve return a value previously initialized", async () => {
+    it("val return a value initialized", async () => {
         expect((await box.val()).toString()).to.equal('42');
     });
 });
