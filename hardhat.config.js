@@ -7,11 +7,11 @@ require('dotenv').config();
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.17",
-  defaultNetwork: "goerli",
-  networks: {
-    goerli: {
-      url: `${process.env.RPC_URL}`,
-      accounts: [`${process.env.METAMASK_PRIVATE_KEY}`],
-    }
-  }
+  // defaultNetwork: "goerli",
+  // networks: {
+  //   goerli: {
+  //     url: `${process.env.RPC_URL}`,
+  //     accounts: [`${process.env.METAMASK_PRIVATE_KEY}`],
+  //   }
+  // }
 };

@@ -24,6 +24,11 @@
       "address": "0x884109f65E8D558B2185e6248b781e16A36A23D0",
       "txHash": "0x4f49ff906281aff46e79ae370e47491e021f8d8902d2c642f1251cc523834e47",
       "kind": "transparent"
+    },
+    {
+      "address": "0xa9411830a5d455459f32F8a6375f6Ce0A597efd3",
+      "txHash": "0x451d281b4f15bb3afe7652ad7c8c14662457ddb7bb9ba239a8240719feced3e6",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -43,6 +48,33 @@
           }
         ],
         "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "7d29ed20023997c7df29055d6284237559d298fc557d4009cc961f5b87d0798e": {
+      "address": "0xeD2bE001eb91714D990e470d1546f7cfA25eBd39",
+      "txHash": "0x6297be5c32970d5c09e9b156c4dc2ed1a5e36d875000cf8f884a30b98d929ae1",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "arr",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "Array",
+            "src": "contracts\\Array.sol:4"
+          }
+        ],
+        "types": {
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
           "t_uint256": {
             "label": "uint256",
             "numberOfBytes": "32"
